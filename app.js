@@ -18,7 +18,7 @@ app.use("/note",noteRoute);
 const groupeRoute=require('./routes/grouperoute');
 app.use("/groupe",groupeRoute);
 //connect
-mongoose.connect("mongodb://127.0.0.1:27017/tpigl",{ useNewUrlParser: true ,useCreateIndex: true,useUnifiedTopology: true });
+mongoose.connect("mongodb://127.0.0.1:27017/bddIgl",{ useNewUrlParser: true ,useCreateIndex: true,useUnifiedTopology: true });
 const connection= mongoose.connection;
 connection.once('open',()=> {
    console.log("sucees");

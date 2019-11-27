@@ -7,7 +7,7 @@ let Note = new Schema({
         type: String
     },
     module: {
-        type: Number
+        type: String
     },
     cc: {
         type: Number
