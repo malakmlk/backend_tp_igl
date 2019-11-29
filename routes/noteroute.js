@@ -3,8 +3,8 @@ const router=express.Router();
 const Note=require('../models/notemodel');
 
 
-router.route('/:matricule').get( function(req, res) {
-    Note.find({'matricule':req.params.matricule},function(err, todos) {
+router.route('/:cc').get( function(req, res) {
+    Note.find({'cc':req.params.cc},function(err, todos) {
         if (err) {
             console.log(err);
         } else {
