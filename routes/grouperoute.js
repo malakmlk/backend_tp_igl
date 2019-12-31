@@ -5,7 +5,7 @@ const Groupe = require('../models/groupemodel');
 
 
 router.get ('/', (req,res)=>{
-    res.send ('we are on groupe');
+    res.send ('we are on groupeeee');
 });
 
 router.post('/', async (req,res) => { 
